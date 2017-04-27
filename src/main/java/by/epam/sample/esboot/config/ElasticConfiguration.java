@@ -9,7 +9,7 @@ import org.springframework.data.elasticsearch.repository.config.EnableElasticsea
 import static org.elasticsearch.node.NodeBuilder.nodeBuilder;
 
 @Configuration
-@EnableElasticsearchRepositories(basePackages = "ru/terra/sample/esboot/domain")
+@EnableElasticsearchRepositories(basePackages = "by/epam/sample/esboot/domain")
 public class ElasticConfiguration {
     @Bean
     public ElasticsearchOperations elasticsearchTemplate() {
