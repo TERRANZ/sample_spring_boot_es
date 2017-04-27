@@ -2,6 +2,9 @@ package ru.terra.sample.esboot.domain;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.elasticsearch.annotations.Document;
+import org.springframework.data.elasticsearch.annotations.Field;
+import org.springframework.data.elasticsearch.annotations.FieldIndex;
+import org.springframework.data.elasticsearch.annotations.FieldType;
 
 import java.io.Serializable;
 import java.util.UUID;
@@ -11,6 +14,13 @@ public class Twit implements Serializable {
     private static final long serialVersionUID = 1L;
     @Id
     private String guid;
+    @Field(
+            type = FieldType.String,
+            index = FieldIndex.analyzed,
+            searchAnalyzer = "standard",
+            analyzer = "standard",
+            store = true
+    )
     private String text;
     private String userId;
 
