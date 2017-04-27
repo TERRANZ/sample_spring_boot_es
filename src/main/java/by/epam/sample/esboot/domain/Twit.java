@@ -1,4 +1,4 @@
-package ru.terra.sample.esboot.domain;
+package by.epam.sample.esboot.domain;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.elasticsearch.annotations.Document;

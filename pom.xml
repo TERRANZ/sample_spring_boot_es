@@ -55,7 +55,7 @@
                         <manifest>
                             <addClasspath>true</addClasspath>
                             <classpathPrefix>lib/</classpathPrefix>
-                            <mainClass>ru.terra.sample.esboot.Main</mainClass>
+                            <mainClass>by.epam.sample.esboot.Main</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
@@ -89,7 +89,7 @@
                     </descriptorRefs>
                     <archive>
                         <manifest>
-                            <mainClass>ru.terra.sample.esboot.Main</mainClass>
+                            <mainClass>by.epam.sample.esboot.Main</mainClass>
                         </manifest>
                     </archive>
                 </configuration>

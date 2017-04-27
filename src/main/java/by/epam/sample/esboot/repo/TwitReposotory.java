@@ -1,8 +1,8 @@
-package ru.terra.sample.esboot.repo;
+package by.epam.sample.esboot.repo;
 
+import by.epam.sample.esboot.domain.Twit;
 import org.springframework.data.elasticsearch.repository.ElasticsearchRepository;
 import org.springframework.stereotype.Repository;
-import ru.terra.sample.esboot.domain.Twit;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package ru.terra.sample.esboot.config;
+package by.epam.sample.esboot.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

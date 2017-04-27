@@ -1,4 +1,4 @@
-package ru.terra.sample.esboot.test;
+package by.epam.sample.esboot.test;
 
 import org.junit.After;
 import org.junit.Assert;
@@ -8,8 +8,8 @@ import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
-import ru.terra.sample.esboot.domain.Twit;
-import ru.terra.sample.esboot.service.TwitService;
+import by.epam.sample.esboot.domain.Twit;
+import by.epam.sample.esboot.service.TwitService;
 
 import java.util.UUID;
 

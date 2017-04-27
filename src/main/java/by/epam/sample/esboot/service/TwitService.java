@@ -1,9 +1,9 @@
-package ru.terra.sample.esboot.service;
+package by.epam.sample.esboot.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import ru.terra.sample.esboot.domain.Twit;
-import ru.terra.sample.esboot.repo.TwitReposotory;
+import by.epam.sample.esboot.domain.Twit;
+import by.epam.sample.esboot.repo.TwitReposotory;
 
 import java.util.List;
 
